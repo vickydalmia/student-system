@@ -1,0 +1,80 @@
+.upload-file-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  min-height: 180px;
+  border-width: 3px;
+  border-style: dashed;
+  border-color: #cbd5e0;
+  background-color: #edf2f7;
+  transition: background-color 160ms ease, border-color 400ms ease;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.button {
+  margin-top: 10px;
+  min-width: 170px;
+  min-height: 42px;
+  padding: 0 14px;
+  font-size: 1rem;
+  color: white;
+  background-color: #f1592a;
+  border-color: #f1592a;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+  border-radius: 4px;
+  border: 2px solid;
+  border-color: transparent;
+  font-weight: 500;
+  line-height: 1;
+  user-select: none;
+  touch-action: manipulation;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: background-color 160ms, color 160ms, box-shadow 160ms,
+    border 160ms;
+  cursor: pointer;
+}
+.button:focus {
+  outline: none;
+}
+.top-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.add-student {
+  margin-right: 10px;
+  background-color: #b3310a;
+  border-color: #b3310a;
+  cursor: pointer;
+}
+.edit-button {
+  background-color: #3f51b5;
+  border-color: #3f51b5;
+  color: white;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #b3310a;
+  border-color: #b3310a;
+  color: white;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-button:focus,
+.edit-button:focus {
+  outline: none;
+}
