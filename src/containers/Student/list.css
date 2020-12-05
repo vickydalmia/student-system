@@ -56,6 +56,12 @@
   border-color: #b3310a;
   cursor: pointer;
 }
+.download-student {
+  background-color: #140501;
+  border-color: #140501;
+  cursor: pointer;
+  margin-left: 10px ;
+}
 .edit-button {
   background-color: #3f51b5;
   border-color: #3f51b5;
@@ -77,4 +83,16 @@
 .delete-button:focus,
 .edit-button:focus {
   outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .top-buttons{
+    flex-direction: column;
+  }
+  .add-student{
+    margin-right: 0;
+  }
+  .download-student{
+    margin-left: 0;
+  }
 }
